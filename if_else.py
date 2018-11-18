@@ -1,9 +1,3 @@
-import sys
-import io
-
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
-
 '''
  제어문 (조건문, 반복문) : 프로그램의 흐름을 효율적으로 이용하기 위한 것
     - 조건문 : if문

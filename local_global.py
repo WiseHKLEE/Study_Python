@@ -1,10 +1,3 @@
-import sys
-import io
-
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
-
-
 '''
 * 변수의 Scope
  - 사용자가 정의한 함수 안에서 선언된 변수는 그 함수 밖에서는

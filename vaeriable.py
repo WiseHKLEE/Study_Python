@@ -1,9 +1,3 @@
-import sys
-import io
-
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
-
 '''변수(Variable) : 객체를 가르키고 있는것. 참조변수라고 한다.
 aa = 100
 bb = 100

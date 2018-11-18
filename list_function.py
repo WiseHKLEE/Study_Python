@@ -1,9 +1,3 @@
-import sys
-import io
-
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
-
 '''list 함수들 : 문자열과 같이 list변수명 뒤에 .(함수명) 입력하여 사용
 
 [list에 값을 추가하는 함수]

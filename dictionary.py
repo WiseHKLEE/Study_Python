@@ -1,10 +1,3 @@
-import sys
-import io
-
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
-
-
 '''
 dictionary 주의사항
 -- key값은 고유한 값이므로 중복되는 값을 설정해 놓으면 안됨.

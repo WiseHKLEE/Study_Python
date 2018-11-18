@@ -1,9 +1,3 @@
-import sys
-import io
-
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
-sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
-
 ''' 리스트 (list)
  : 다른 언어의 배열과 같은 형태를 의미함
 
