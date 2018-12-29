@@ -10,7 +10,7 @@ class MyThread(threading.Thread):
     def run(self):
         while True:
             time.sleep(1)
-            print(self.msg)
+g            print(self.msg)
 
 for msg in ['you','need','python']:
     t = MyThread(msg)
